@@ -6,3 +6,4 @@ My 365 day SaaS developer journey
 
 Today I started my 100 days of SaaS journey.
 I installed VS Code, Git, and created this repository.
+This line was added directly on Github Website.
