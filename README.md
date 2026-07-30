@@ -1,4 +1,8 @@
-#Day6-Revision
-Hello.This is my day 6 of learning SaaS Developement.
-In Day 6 I will rivise everthing I learn in 5 days.
-This line was added to practice change.
+# 100 Days of SaaS
+
+This is my 365 day SaaS developer journey.
+I am learning to build SaaS products from zero.
+
+## Day 1
+
+Started my journey. Installed VS Code and Git.
