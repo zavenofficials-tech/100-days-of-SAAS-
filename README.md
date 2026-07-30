@@ -7,3 +7,4 @@ I am learning to build SaaS products from zero.
 
 Started my journey. Installed VS Code and Git.
 This line was added in new branch.
+This line was added in GitHub.
