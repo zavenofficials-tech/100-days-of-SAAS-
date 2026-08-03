@@ -1,10 +1,10 @@
-# 100-days-of-SAAS-
+# 100 Days of SaaS
 
-My 365 day SaaS developer journey
+This is my 365 day SaaS developer journey.
+I am learning to build SaaS products from zero.
 
-## Day 1 Entry
+## Day 1
 
-Today I started my 100 days of SaaS journey.
-I installed VS Code, Git, and created this repository.
-This line was added directly on Github Website.
-This line was added on my-first-branch.
+Started my journey. Installed VS Code and Git.
+This line was added in new branch.
+This line was added in GitHub.
