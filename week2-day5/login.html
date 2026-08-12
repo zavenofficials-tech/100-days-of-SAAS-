@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device=width, initial-scale=1.0" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <header>
+      <h2 align="center" style="color: rgb(16, 15, 15)">
+        LOGIN TO SAAS ROADMAP
+      </h2>
+    </header>
+    <main>
+      <form action="/week2-day5/roadmap.html" method="post">
+        <center>
+          <!-- Text input -->
+          <label for="name" align="center" style="color: black"
+            >Enter Name:</label
+          >
+          <input
+            type="text"
+            id="name"
+            placeholder="Enter your name"
+            required
+            align="center"
+          />
+          <br /><br />
+          <!-- Email input -->
+          <label for="email" style="color: black">Enter Email:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="example@gmail.com"
+            required
+          />
+          <br /><br />
+          <!-- Password input -->
+          <label for="password" style="color: black">Enter Password:</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your password"
+            required
+          />
+          <br /><br />
+          <!-- Radio button -->
+          <label for="gender" style="color: black">Select Gender:</label>
+          <input
+            type="radio"
+            id="male"
+            name="gender"
+            value="male"
+            required
+          /><label for="male" style="color: black">Male</label>
+          <input
+            type="radio"
+            id="female"
+            name="gender"
+            value="female"
+            required
+          /><label for="female" style="color: black">Female</label> <br /><br />
+          <!-- Dropdown -->
+          <label for="country" style="color: black">Select Country:</label>
+          <select id="country" name="country" required>
+            <option value="USA">USA</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Canada">Canada</option>
+            <option value="India">India</option>
+            <option value="South Korea">South Korea</option>
+            <option value="Russia">Russia</option>
+          </select>
+          <br /><br />
+          <!-- checkbox -->
+          <label for="Languages" style="color: black"
+            >Select your favorite Languages:</label
+          >
+          <br /><br />
+          <input
+            type="checkbox"
+            value="html"
+            name="languages"
+            id="html"
+          /><label for="html" style="color: black">HTML</label>
+          <input type="checkbox" value="css" name="languages" id="css" /><label
+            for="css"
+            style="color: black"
+            >CSS</label
+          >
+          <input
+            type="checkbox"
+            value="javascript"
+            name="languages"
+            id="javascript"
+          /><label for="javascript" style="color: black">JavaScript</label>
+          <input
+            type="checkbox"
+            value="python"
+            name="languages"
+            id="python"
+          /><label for="python" style="color: black">Python</label> <br /><br />
+          <!-- Big text area -->
+          <label for="message">Your Feedback:</label>
+          <textarea
+            id="message"
+            rows="5"
+            placeholder="Write your feedback here"
+          >
+          </textarea>
+          <br /><br />
+          <!-- Login button -->
+          <a href="roadmap.html">
+            <button
+              type="button"
+              style="
+                background-color: #4f46e5;
+                color: white;
+                padding: 12px 30px;
+                border: none;
+                border-radius: 8px;
+                font-size: 16px;
+                cursor: pointer;
+              "
+            >
+              Login
+            </button></a
+          >
+        </center>
+      </form>
+    </main>
+  </body>
+</html>
