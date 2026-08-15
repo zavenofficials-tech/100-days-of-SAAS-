@@ -1,21 +1,63 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charser="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Building Profile</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+    initial-scale=1.0"
+    />
+    <title>Zaven — Developer Profile</title>
   </head>
   <body>
     <header>
       <nav>
-        <a href="#home">Home</a>
         <a href="#about">About</a>
+        <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
-    <main></main>
+
+    <main>
+      <section id="about">
+        <h1>Hi I am Zaven 👋</h1>
+        <p>
+          I am learning to become a full-stack SaaS developer. I started from
+          zero and I am building every day.
+        </p>
+        <img src="https://via.placeholder.com/150" alt="Profile photo" />
+      </section>
+
+      <section id="skills">
+        <h2>Skills I Am Learning</h2>
+        <ul>
+          <li>HTML — building structure</li>
+          <li>CSS — design and colors</li>
+          <li>JavaScript — interactivity</li>
+          <li>React — web applications</li>
+          <li>Node.js — backend</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Your name" />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="your@email.com" />
+
+          <label for="message">Message:</label>
+          <textarea id="message" rows="4" placeholder="Say hello"></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
     <footer>
-      <p>&copy; 2026 Zaven. All right reserved.</p>
+      <p>Zaven — SaaS Developer in Training — 2025</p>
     </footer>
   </body>
 </html>
