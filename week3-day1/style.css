@@ -1,0 +1,13 @@
+/* STYLE DIV */
+#box {
+  background-color: blue;
+  color: white;
+}
+/* STYLE ALL HEADING USING CLASS SELECTOR */
+.headings {
+  color: red;
+}
+/* STYLE BUTTON USING ID SELECTOR */
+#btn01 {
+  background-color: green;
+}
