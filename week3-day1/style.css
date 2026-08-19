@@ -11,3 +11,40 @@
 #btn01 {
   background-color: green;
 }
+footer,
+#one {
+  text-align: center;
+}
+
+#intro {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#education {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#outer {
+  font-size: 25px;
+}
+#inner {
+  font-size: 15px;
+}
+#center {
+  text-align: center;
+}
+#underline {
+  text-decoration: underline;
+}
+#bold {
+  font-weight: bold;
+}
+#italic {
+  font-style: italic;
+}
+#left {
+  text-align: left;
+}
